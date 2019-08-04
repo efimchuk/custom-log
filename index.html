@@ -1,0 +1,30 @@
+<head>
+    <meta charset="utf-8">
+    <title>Notification</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="dialogForms.js" defer></script>
+</head>
+<body>
+    <h1>Это демонстрация работы кастомных alert, confirm и prompt</h1>
+
+    <div id="alert" class="button">
+        <h1>alert</h1>
+    </div>
+    <div id="confirm" class="button">
+        <h1>confirm</h1>
+    </div>
+    <div id="prompt" class="button">
+        <h1>prompt</h1>
+    </div>
+
+
+    <div id='dialogBackground'>
+        <div id="dialog" style="display: block;">
+            <p class="title" >Message</p>
+            <input type="text" style="display: none;"><br>
+            <button class="cancelButton" tabindex="-1" style="display: none;">Cancel</button>
+            <button class="okButton" tabindex="-1" style="display: none;">OK</button>
+        </div>
+    </div>
+</body>
