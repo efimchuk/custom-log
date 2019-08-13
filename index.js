@@ -1,13 +1,17 @@
-document.getElementById('alert').onclick = async function (event){
-    console.log('ALERT');
+document.getElementById('Error').onclick = async function (event){
+    console.error('Error');
 }
 
-document.getElementById('confirm').onclick = async function (event){
-    console.log(`CONFIRM`);
+document.getElementById('Log').onclick = async function (event){
+    console.log(`Log`);
 }
 
-document.getElementById('prompt').onclick = async function (event){
-    console.log(`PROMPT`);
+document.getElementById('Warning').onclick = async function (event){
+    console.warn(`Warning`);
+}
+
+document.getElementById('Info').onclick = async function (event){
+    console.info(`Info`);
 }
 
 Array
